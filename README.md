@@ -87,5 +87,3 @@ If you want to contribute to ASRBench, see [CONTRIBUTING.md]() for information o
 Distributed under the MIT license. See the [LICENSE](./LICENSE) file for more details.
 
 [:arrow_up: Go to top](#index)
-
-Translated with DeepL.com (free version)
