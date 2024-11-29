@@ -44,25 +44,25 @@ Below is an example of the configuration file structure:
 ```yaml
 # data output configuration
 output:
-  type: “csv”
-  dir: “./results”
-  filename: “example_filename”
+  type: "csv"
+  dir: "./results"
+  filename: "example_filename"
 
 # datasets configuration
 datasets:
   dataset1:
-    audio_dir: “resources/common_voice_05/wav”
-    reference_dir: “resources/common_voice_05/txt”
+    audio_dir: "resources/common_voice_05/wav"
+    reference_dir: "resources/common_voice_05/txt"
 
 # transcription system configuration
 transcribers:
   faster_whisper_medium_int8:
-    asr: “faster_whisper”
-    model: “medium”
-    compute_type: “int8”
-    device: “cpu”
+    asr: "faster_whisper"
+    model: "medium"
+    compute_type: "int8"
+    device: "cpu"
     beam_size: 5
-    language: “en”  
+    language: "en"  
 ```
 
 With the configuration file in hand, just run the command:
