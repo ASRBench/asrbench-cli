@@ -3,6 +3,8 @@
 [:brazil: Versão Português Brasileiro](./README-pt.md)
 
 # Asrbench-Cli
+[//]: # (![python]&#40;https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&#41;)
+[//]: # (![pypi package version]&#40;https://img.shields.io/pypi/pyversions/:asrbench-cli?style=for-the-badge&#41;)
 
 ## Index
 
@@ -74,7 +76,8 @@ The CLI will read the configuration file, set up the benchmark and run it automa
 will be displayed directly in the terminal, including the percentage of completion and a time estimate for the 
 completion of each stage of the transcription process.
 
-For a complete list of available commands and instructions for more advanced uses, see [documentation]().
+> [!TIP]
+> For a complete list of available commands and instructions for more advanced uses, see [documentation]().
 
 ## Contribution
 If you want to contribute to ASRBench, see [CONTRIBUTING.md]() for information on: 
