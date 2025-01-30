@@ -33,7 +33,7 @@ pip install asrbench-cli
 ```
 
 > [!NOTE]
-> The list of project dependencies is available in the file [CONTRIBUTING.md]()
+> The list of project dependencies is available in the file [pyproject.toml](./pyproject.toml)
 
 ## Usage
 The CLI requires a configuration file to work, in the same format as the framework. 
