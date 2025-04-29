@@ -74,7 +74,7 @@ A CLI lerá o arquivo de configuração, montará o benchmark e o executará aut
 serão exibidos diretamente no terminal, incluindo a porcentagem de conclusão e uma estimativa de tempo para a 
 finalização de cada etapa do processo de transcrição.
 
-> [TIP]
+> [!TIP]
 > Para uma lista completa de comandos disponíveis e instruções para usos mais avançados, consulte a [documentação]().
 
 ## Contribuição
