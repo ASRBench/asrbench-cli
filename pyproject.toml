@@ -1,11 +1,23 @@
 [tool.poetry]
 name = "asrbench-cli"
-version = "0.1.0-alpha"
+version = "0.1.0"
 description = ""
-authors = ["BDu4rTe <brianschierduarte@outlook.com>"]
-readme = "README.md"
+authors = ["ASRBench <asrbenchmark@gmail.com>"]
+readme = "README-pypi.md"
 packages = [{ include = "asrbench_cli" }]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Benchmark",
+]
 
+[tool.poetry.urls]
+"Documentation" = "https://asrbench.github.io/asrbench/cli/installation"
+"Source" = "https://github.com/ASRBench/asrbench-cli"
+"Bug Tracker" = "https://github.com/ASRBench/asrbench-cli/issues"
 
 [tool.poetry.scripts]
 cli = "asrbench_cli.cli: app"
@@ -16,8 +28,8 @@ faster-whisper = "^1.0.3"
 vosk = "^0.3.45"
 transformers = "^4.44.2"
 librosa = "^0.10.2.post1"
+asrbench = "^0.1.0"
 openai-whisper = { git = "https://github.com/openai/whisper.git" }
-asrbench = { git = "https://github.com/ASRBench/asrbench.git", branch = "duarte/dev"}
 typer = {extras = ["all"], version = "^0.13.1"}
 
 [tool.poetry.group.dev.dependencies]
