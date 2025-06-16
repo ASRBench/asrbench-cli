@@ -4,16 +4,6 @@
 [//]: # (![python]&#40;https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&#41;)
 [//]: # (![pypi package version]&#40;https://img.shields.io/pypi/pyversions/:asrbench-cli?style=for-the-badge&#41;)
 
-## Index
-
-- [Asrbench-Cli](#asrbench-cli)
-  - [Index](#index)
-  - [Introduction](#introduction)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contribution](#contribution)
-  - [License](#license)
-
 ## Introduction
 ASRBench CLI is a complementary tool to the [ASRBench](https://github.com/ASRBench/asrbench) framework, designed 
 to simplify the execution of audio transcription system benchmarks directly from the command line.
@@ -33,13 +23,13 @@ pip install asrbench-cli
 ```
 
 > [!NOTE]
-> The list of project dependencies is available in the file [pyproject.toml](./pyproject.toml)
+> The list of project dependencies is available in the file [pyproject.toml](https://github.com/ASRBench/asrbench-cli/blob/main/pyproject.toml)
 
 ## Usage
 The CLI requires a configuration file to work, in the same format as the framework. 
 benchmark environment, defining datasets, transcribers and output parameters in a simple and declarative way. 
 declarative. For more details on the structure of the configuration file, go to
-[documentation]().
+[documentation](https://asrbench.github.io/asrbench/cli/installation).
 
 Below is an example of the configuration file structure:
 
@@ -77,16 +67,7 @@ will be displayed directly in the terminal, including the percentage of completi
 completion of each stage of the transcription process.
 
 > [!TIP]
-> For a complete list of available commands and instructions for more advanced uses, see [documentation]().
-
-## Contribution
-If you want to contribute to ASRBench, see [CONTRIBUTING.md]() for information on: 
-
-- Configuration of the development environment.
-- Project structure and dependencies.
-- Best practices.
+> For a complete list of available commands and instructions for more advanced uses, see [documentation](https://asrbench.github.io/asrbench/cli/usage).
 
 ## License
-Distributed under the MIT license. See the [LICENSE](./LICENSE) file for more details.
-
-[:arrow_up: Go to top](#index)
+Distributed under the MIT license. See the [LICENSE](https://github.com/ASRBench/asrbench-cli/blob/main/LICENSE) file for more details.
